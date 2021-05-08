@@ -1,6 +1,6 @@
 int saveThePrisoner(int n, int m, int s)
 {
-    int result = ((m%n) +s -1) % n;
+    int result = ((m%n)+s-1) % n;
     return result ? result : n;
 }
 
